@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     xmlns:app="http://schemas.android.com/apk/res-auto"
+=======
+>>>>>>> c595867 (Gradle Plugin Updated)
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -25,6 +28,10 @@
         android:layout_marginBottom="25dp"
         android:text="Message Format!"
         android:textSize="24sp" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> c595867 (Gradle Plugin Updated)
     <TextView
         android:id="@+id/message_content"
         android:layout_width="wrap_content"
@@ -39,6 +46,7 @@
         android:id="@+id/scanbtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:background="#30ffffff"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -47,4 +55,14 @@
         android:layout_marginRight="35dp"
         android:text="scan QR CODE" />
          
+=======
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:background="#30ffffff"
+        android:text="scan QR CODE"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+>>>>>>> c595867 (Gradle Plugin Updated)
 </LinearLayout>
